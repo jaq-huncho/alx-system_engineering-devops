@@ -1,2 +1,2 @@
 #!/bin/bash
-/tmp/correction/1203713018070046827383620474493859973674_5/205/130653/0x00-shell_basics
+path=$(realpath "$(BASH_SOURCE:$0)") echo("path $path")
